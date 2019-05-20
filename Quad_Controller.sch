@@ -478,10 +478,10 @@ F 3 "" H 8000 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8000 2400 8000 2500
-Text Label 8700 1650 0    60   ~ 0
+Text Label 8700 1550 0    60   ~ 0
 SPI_MISO
 Wire Wire Line
-	8700 1650 8450 1650
+	8700 1550 8450 1550
 $Comp
 L Connector_Generic:Conn_01x01 J2
 U 1 1 5AF7A306
@@ -571,7 +571,7 @@ U 1 1 5AF7BB24
 P 3600 1850
 F 0 "C1" V 3750 1800 50  0000 L CNN
 F 1 "100uF" V 3450 1750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3638 1700 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 3638 1700 50  0001 C CNN
 F 3 "http://datasheets.avx.com/TAJ.pdf" H 3600 1850 50  0001 C CNN
 	1    3600 1850
 	0    -1   -1   0   
@@ -1123,10 +1123,10 @@ Wire Wire Line
 	6150 5000 6150 5450
 Wire Wire Line
 	5850 7050 5850 6650
-Text Label 8700 1750 0    60   ~ 0
+Text Label 8700 2050 0    60   ~ 0
 SPI_MOSI
 Wire Wire Line
-	8700 1750 8450 1750
+	8700 2050 8450 2050
 Text Label 4650 5000 1    60   ~ 0
 SPI_MISO
 Wire Wire Line
@@ -1144,17 +1144,17 @@ IMU_CS
 Wire Wire Line
 	4850 5000 4850 5450
 Text Label 6250 7050 3    60   ~ 0
-M3S
+M2S
 Wire Wire Line
 	6250 7050 6250 6650
 Text Label 5050 5000 1    60   ~ 0
-M4S
+M1S
 Wire Wire Line
 	5050 5000 5050 5450
 Text Label 4650 7050 3    60   ~ 0
-M2S
+M3S
 Text Label 3550 7050 3    60   ~ 0
-M1S
+M4S
 Wire Wire Line
 	4650 7050 4650 6650
 Wire Wire Line
@@ -1284,7 +1284,7 @@ U 1 1 5CF94E7C
 P 3850 2500
 F 0 "C3" V 4000 2450 50  0000 L CNN
 F 1 "470pF" V 3700 2400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3888 2350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3888 2350 50  0001 C CNN
 F 3 "http://datasheets.avx.com/TAJ.pdf" H 3850 2500 50  0001 C CNN
 	1    3850 2500
 	1    0    0    -1  
@@ -1325,7 +1325,7 @@ U 1 1 5CFCAEE3
 P 5800 3050
 F 0 "C14" H 5825 3150 50  0000 L CNN
 F 1 "470uF" H 5825 2950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 5838 2900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5838 2900 50  0001 C CNN
 F 3 "http://datasheets.avx.com/TAJ.pdf" H 5800 3050 50  0001 C CNN
 	1    5800 3050
 	-1   0    0    1   

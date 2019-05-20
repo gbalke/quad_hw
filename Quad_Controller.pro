@@ -1,4 +1,4 @@
-update=Fri 26 Apr 2019 12:55:44 PM PDT
+update=Sun 19 May 2019 09:24:47 PM PDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -12,7 +12,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Quad_Controller_v2.net
+LastNetListRead=Quad_Controller_v3.net
 PadDrill=0
 PadDrillOvalY=0
 PadSizeH=3
