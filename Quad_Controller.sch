@@ -542,17 +542,6 @@ Wire Wire Line
 	7650 1250 7850 1250
 Wire Wire Line
 	7850 1250 7850 1350
-$Comp
-L Connector:Screw_Terminal_01x02 J1
-U 1 1 5AF7AECA
-P 1200 2150
-F 0 "J1" H 1200 2250 50  0000 C CNN
-F 1 "Bat_Connect" H 1200 1950 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1200 2150 50  0001 C CNN
-F 3 "" H 1200 2150 50  0001 C CNN
-	1    1200 2150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1450 2050 1400 2050
 Wire Wire Line
@@ -1448,6 +1437,17 @@ F 1 "VDD" H 10100 4200 50  0000 C CNN
 F 2 "" H 10100 4050 50  0001 C CNN
 F 3 "" H 10100 4050 50  0001 C CNN
 	1    10100 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5AF7AECA
+P 1200 2150
+F 0 "J1" H 1200 2250 50  0000 C CNN
+F 1 "Bat_Connect" H 1200 1950 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1200 2150 50  0001 C CNN
+F 3 "" H 1200 2150 50  0001 C CNN
+	1    1200 2150
 	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
