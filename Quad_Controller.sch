@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Quad_Controller-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1387,7 +1387,7 @@ Wire Wire Line
 Text Notes 1000 3650 0    98   ~ 0
 Motor Connections
 Text Notes 5900 2700 0    50   ~ 0
-out = R2/R1=3.3/2=3.3125V
+out=1.25*(1+FR2/FR1)=3.3125V
 Wire Wire Line
 	4750 1950 5300 1950
 Wire Wire Line
@@ -1450,4 +1450,8 @@ F 3 "" H 1200 2150 50  0001 C CNN
 	1    1200 2150
 	-1   0    0    1   
 $EndComp
+Text Notes 4850 3100 0    50   ~ 0
+FR1
+Text Notes 5000 2950 0    50   ~ 0
+FR2
 $EndSCHEMATC
